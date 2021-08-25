@@ -1,0 +1,136 @@
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  /* margin-top: 4rem; */
+  background-color: #f6f9fb;
+  font-size: 2.3vh;
+}
+
+.dataContainer {
+  background: white;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #fff;
+  box-shadow: 0px 5px 5px 1px #ccc;
+  font-size: 1.2rem;
+  line-height: 0rem; 
+  min-width: 60%;
+}
+
+.tableContainer {
+  background: white;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 2rem 1rem 2rem;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  border: 2px solid #fff;
+  box-shadow: 0px 5px 5px 1px #ccc;
+  font-size: 1.1rem;
+  /* line-height: 0rem; */
+ 
+  height: 23rem;
+}
+
+table {
+  display: block;
+  overflow-y: scroll;
+  /* overflow:auto;
+  float:right; */
+  height: 17.6rem;
+  border: solid 1px blue;
+}
+
+.tableContainer td {
+  padding: 0.8rem;
+}
+
+.tableContainer th,tr,td {
+  border-top: solid 1px blue;
+  border-left: solid 1px blue;
+  border-right: solid 1px blue;
+}
+
+.tableContainer td {
+  border-bottom: solid 1px blue;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.1rem;
+  padding: 0.5rem 0.5rem;
+  font-weight: bold;
+}
+
+.inputCity {
+  width:25rem;
+  padding-bottom: -0.5rem;
+  margin-left: 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px dashed blue;
+  font-size: 1.2rem;
+}
+
+.inputPrize {
+  width:6rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px dashed blue;
+  font-size: 1.2rem;
+}
+
+
+.buttonClass {
+  margin-top: 0.7rem;
+  cursor: pointer;
+  padding: 9px;
+  border: 0;
+  background-color: Transparent;
+  font-size: 1.2rem;
+}
+
+.statusBarClass {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(202, 193, 193);
+  bottom:0;
+  left:0;
+  padding: 10px 24px;
+  color:grey;
+}
+
+.spinIconClass {
+  align-Self: center;
+  pointer-events: none; 
+  margin-right: 1rem;
+}
+
+.noticeClass {
+  font-size: 0.9rem;
+  align-Self: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.winnerBoxClass {
+  width: 60%;
+  position: fixed;
+  top: 25%;
+  left:20%;
+  background-color: rgba(18, 63, 148, 0.75);
+  padding: 2rem;
+  color:white;
+  font-weight: bold;
+}
