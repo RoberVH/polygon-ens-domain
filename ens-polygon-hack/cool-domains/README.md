@@ -13,7 +13,9 @@ https://github.com/RoberVH/polyogn-ens-Web-Dapp
 ### To test it:
 
 $> npx hardhat scripts/run.js
+
 $> npx hardhat scripts/run2.js
+
 $> npx hardhat scripts/run3.js
 
 ### to deploy it to mumbai testnet:
