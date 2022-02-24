@@ -6,7 +6,10 @@ It grants rights to change the register only to domain owner
 
  This project is my rendition of Buildspace mini hackathon project.  it' was deployed to Polygon Testnet Mumbai and there is a companion web dapp to access it
 
- 
+## Accesing Dapp (in react) to this contract can be found here: 
+
+https://github.com/RoberVH/polyogn-ens-Web-Dapp
+
 ### To test it:
 
 $> npx hardhat scripts/run.js
